@@ -1,0 +1,303 @@
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden; /*Barra de rolagem*/
+}
+body{
+	background:#cfcfc4;
+	background-attachment: fixed; 
+	font-family: Arial,Helvetica,sans-setif;
+}
+#home{
+	background: url(img/imagem1.png) ;
+	background-attachment: fixed;
+}
+
+#logo{
+	font-family: 'Inspiration', cursive;
+	color: #daa520;
+	font-size: 1.5em;
+
+}
+
+
+
+/*FORMATAÇÃO BARRA DE NAVEGAÇÃO*/
+
+nav.navbar-transparente, footer{
+	background: rgba(0,0,0,0.6);
+	padding: 15px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #9bf0e1;
+	background:rgba(128,128,128,0.6);
+}
+
+
+.navbar-light .navbar-toggler{
+	color: rgba(255,255,255,0.5);
+	border-color: rgba(255,255,255,0.1);
+}
+.conteudo-titulo{
+	background: rgba(168,168,168,0.4);
+	top: 45%;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: rgba(255,0,0,1);
+	border-color: rgba(255,255,255,0.5);
+}
+
+#ajuste{
+	margin-left: 100px;
+}
+
+/* FORMATAÇÃO GERAL */
+
+.caixa .container{
+	background: #d5d5d5;
+}
+
+#destaque-doutora{
+ 	width: 80%;
+ 	height: 350px;
+ 	background-color: rgba(255,255,255,0.3);
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius:10px;
+ 	border-radius: 10px;
+ 	margin: 0 auto;
+ 	margin-top: 100px;
+ 	text-align: center;
+ }
+
+#destaque-doutora img{
+ 	width: 200px;
+ 	height: 200px;
+ 	margin-top: -90px;
+ 	margin-bottom: 30px;
+ }
+
+#consultorios-sobre a{
+ 	margin-top: 10px;
+ 	margin-bottom: 20px;
+ }
+
+#contato-bras a{
+	margin-right: 10px;
+}
+
+#contato-bras iframe{
+	padding-bottom: 20px;
+}
+
+#contato-sao-miguel a{
+	margin-right: 10px;
+}
+
+#contato-sao-miguel iframe{
+	padding-bottom: 20px;
+}
+
+#home-bras{
+	padding-top: 5%;
+
+}
+
+#home-bras a{
+	margin-right: 10px;
+}
+
+#home-sao-miguel{
+	padding-top: 5%;
+}
+
+#home-sao-miguel a{
+	margin-right: 10px;
+}
+
+.ajuste-caixas{
+	padding: 20px;
+}
+/*FORMATAÇÃO DE LETRAS E PARAGRÁFOS*/
+
+#conteudo h1{
+	font-family: 'Inspiration', cursive;
+	color: #daa520;
+	font-size: 6em;
+	letter-spacing: ;
+}
+
+#conteudo p{
+	font-size: 1.25em;
+}
+
+#albuns h1{
+	color: #daa520;
+	font-size: 4em;
+	letter-spacing: -0.05;
+}
+
+#albuns h2{
+
+	font-size: 2em;
+	letter-spacing: ;
+}
+
+#albuns p{
+	font-size: 1.25em;
+}
+
+#albuns .imagem{
+	width: 70%;
+	height: 70%;
+}
+
+#especialidades h1{
+	color: #daa520;
+	font-size: 4em;
+	letter-spacing: -0.05;
+}
+
+#especialidades h3{
+	font-size: 2em;
+	color: #000;
+}
+
+#especialidades p, li{
+	color: #4d4b4d;
+	font-size: 1.25em;
+}
+
+#sobre-clinica h1{
+	font-family: 'Inspiration', cursive;
+	color: #daa520;
+	font-size: 6em;
+	text-align: center;
+}
+
+#sobre-clinica p{
+	font-size: 1.25em;
+	margin: 0 2em;
+}
+
+#consultorios-sobre h1{
+	font-family: 'Inspiration', cursive;
+	color: #daa520;
+	font-size: 6em;
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+#consultorios-sobre p{
+	font-size: 1.25em;
+}
+
+#consultorios-sobre h2{
+	font-size: 2em;
+	text-align: center;
+	color: red;
+}
+
+#consultorios-sobre h2 p{
+	text-align: center;
+}
+
+#contato-bras h1{
+	color: #daa520;
+	font-size: 4em;
+	letter-spacing: -0.05;
+	border-bottom: 1px solid gray;
+	padding: 20px 0 5px 0;
+}
+
+#contato-bras h2{
+	font-size: 2em;
+	letter-spacing: -0.05
+	color: #000;
+	text-transform: uppercase;
+}
+
+#contato-bras p{
+	font-size: 1em;
+}
+
+#contato-bras .ajuste-contato h2{
+	font-size: 1.5em;
+}
+
+#contato-sao-miguel .ajuste-contato h2{
+	font-size: 1.5em;
+}
+
+#contato-sao-miguel h1{
+	color: #daa520;
+	font-size: 4em;
+	letter-spacing: -0.05;
+	border-bottom: 1px solid gray;
+	padding: 20px 0 5px 0;
+}
+
+#contato-sao-miguel h2{
+	font-size: 2em;
+	letter-spacing: -0.05
+	color: #000;
+	text-transform: uppercase;
+}
+
+#contato-sao-miguel p{
+	font-size: 1em;
+}
+
+#home-bras h1{
+	font-family: 'Inspiration', cursive;
+	color: #daa520;
+	font-size: 6em;
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+#home-bras p{
+	font-size: 1.25em;
+}
+
+#home-bras h2{
+	font-size: 2em;
+	color: #000;
+}
+
+#home-bras .ajuste-iframe-bras p{
+	font-size: 0.8em;
+}
+
+#home-sao-miguel h1{
+	font-family: 'Inspiration', cursive;
+	color: #daa520;
+	font-size: 6em;
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+#home-sao-miguel p{
+	font-size: 1.25em;
+}
+
+#home-sao-miguel h2{
+	font-size: 2em;
+	color: #000;
+}
+
+#home-sao-miguel .ajuste-iframe-bras p{
+	font-size: 0.8em;
+}
+
+/* FORMATAÇÃO RODAPÉ */
+
+footer{
+	color: white;
+}
+
